@@ -30,9 +30,9 @@ function App() {
         </nav>
       </div>
 
-      <section className="align-end container mx-auto flex min-h-screen items-start justify-between gap-4 px-4 lg:grid lg:grid-cols-2">
-        <div className="m-auto max-w-7xl sm:text-center lg:text-left">
-          <h1 className="text-8xl font-bold tracking-tight text-purple-100">
+      <section className="align-end container mx-auto mt-10 flex items-start justify-between gap-4 py-8 px-4 lg:mt-0 lg:grid lg:grid-cols-2 xl:min-h-screen">
+        <div className="max-w-7xl sm:text-center lg:m-auto lg:text-left">
+          <h1 className="text-5xl font-bold tracking-tight text-purple-100 sm:text-6xl lg:text-8xl">
             <span className="block xl:inline">On-Chain Legal Agreements</span>
           </h1>
           <p className="mt-3 text-base text-xl text-purple-100 sm:mx-auto sm:mt-5 md:mt-5 lg:mx-0">
@@ -56,7 +56,7 @@ function App() {
 
         <div className="m-auto hidden lg:block">
           <img
-            className="m-auto h-auto w-full max-w-xs xl:max-w-xl"
+            className="m-auto h-auto w-full max-w-xs xl:max-w-lg"
             src="/screen.png"
           />
         </div>
