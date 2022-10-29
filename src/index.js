@@ -5,7 +5,7 @@ import App from "./App";
 import "./index.css";
 
 mixpanel.init("651203480f5ef4a1159840dd20c9d95b");
-mixpanel.track("Sign up");
+mixpanel.track("View");
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
