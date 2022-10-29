@@ -1,3 +1,4 @@
+import mixpanel from "mixpanel-browser";
 import Features from "./Features";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
               without
               rel="noreferrer"
               className="flex hidden w-full items-center justify-center rounded-md border border-transparent bg-fuchsia-500 px-8 py-3 text-base font-medium text-white hover:bg-fuchsia-300 hover:text-slate-900 sm:block md:py-4 md:px-10 md:text-lg"
+              onClick={() => mixpanel.track("Get Early Access")}
             >
               Get Early Access
             </a>
@@ -47,6 +49,7 @@ function App() {
                 without
                 rel="noreferrer"
                 className="flex w-full items-center justify-center rounded-md border border-transparent bg-fuchsia-500 px-8 py-3 text-base font-medium text-white hover:bg-fuchsia-300 hover:text-slate-900 md:py-4 md:px-10 md:text-lg"
+                onClick={() => mixpanel.track("Get Early Access")}
               >
                 Get Early Access
               </a>
