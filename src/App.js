@@ -13,7 +13,7 @@ function App() {
             <div className="flex w-full items-center justify-between md:w-auto">
               <a href="#" rel="noreferrer">
                 <span className="sr-only">ZKsig</span>
-                <img alt="ZKsig" className="h-20 w-auto" src="/logo.png" />
+                <img alt="ZKsig" className="h-20 w-auto" src="/logo_v2.jpg" />
               </a>
             </div>
           </div>
@@ -68,7 +68,7 @@ function App() {
       <Features />
 
       <footer className="w-full p-24">
-        <img className="m-auto w-24" src="/logo.png" />
+        <img className="m-auto w-24" src="/logo_v2.jpg" />
       </footer>
     </>
   );
