@@ -1,5 +1,6 @@
 import mixpanel from "mixpanel-browser";
 import Features from "./Features";
+import HowItWorks from "./HowItWorks";
 
 function App() {
   return (
@@ -34,12 +35,14 @@ function App() {
 
       <section className="align-end container mx-auto mt-10 flex items-start justify-between gap-4 py-8 px-4 lg:mt-0 lg:grid lg:grid-cols-2 xl:min-h-screen">
         <div className="max-w-7xl sm:text-center lg:m-auto lg:text-left">
-          <h1 className="text-5xl font-bold tracking-tight text-purple-100 sm:text-6xl lg:text-8xl">
-            <span className="block xl:inline">On-Chain Legal Agreements</span>
+          <h1 className="text-5xl font-bold tracking-tight text-purple-100 sm:text-6xl lg:text-7xl">
+            <span className="block xl:inline">
+              The Future of Legal Agreements
+            </span>
           </h1>
           <p className="mt-3 text-base text-xl text-purple-100 sm:mx-auto sm:mt-5 md:mt-5 lg:mx-0">
-            Send and sign agreements with e-signatures built for the Solana
-            blockchain
+            Send and sign agreements utilizing decentralized e-signature
+            protocols.
           </p>
           <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div className="rounded-md shadow">
@@ -66,6 +69,7 @@ function App() {
       </section>
 
       <Features />
+      <HowItWorks />
 
       <footer className="w-full p-24">
         <img className="m-auto w-24" src="/logo_v2.jpg" />
