@@ -9,7 +9,7 @@ const features = [
   {
     name: "DeFi",
     description:
-      "Onboard investors utilizing proven legal agreements without having to leave your dApp. Use zero knowledge proofs to stay compliant while continuing to push the boundaries.",
+      "Onboard investors utilizing legally binding agreements without having to leave your dApp. Use zero knowledge proofs to stay compliant while continuing to push the boundaries.",
     icon: RocketLaunchIcon,
   },
   {
@@ -38,13 +38,13 @@ export default function Features() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-lg font-semibold text-purple-500">
-            Decentralized Legally Binding Agreements
+            Legally Binding Decentralized E-Signatures
           </h2>
           <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-slate-900 sm:text-4xl">
-            Our Process
+            Use Cases
           </p>
           <p className="mt-4 max-w-2xl text-xl text-slate-500 lg:mx-auto">
-            Future Proof E-Signature Protocols
+            Build e-signatures into web3 workflows
           </p>
         </div>
 

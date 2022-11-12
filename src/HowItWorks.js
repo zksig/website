@@ -1,34 +1,29 @@
-import {
-  BoltIcon,
-  LockClosedIcon,
-  RocketLaunchIcon,
-  ScaleIcon,
-} from "@heroicons/react/24/outline";
-
 const features = [
   {
     name: "Filecoin Virtual Machine",
     description:
-      "Onboard investors utilizing proven legal agreements without having to leave your dApp. Use zero knowledge proofs to stay compliant while continuing to push the boundaries.",
-    icon: RocketLaunchIcon,
+      "We utilize the Filecoin Virtual Machine to attribute e-signatures to users and associate e-signatures with agreements.",
+    icon: <img src="/fvm.png" className="h-full w-full" aria-hidden="true" />,
   },
   {
     name: "IPFS",
     description:
-      "Sign Limited Liability wrappers on chain. Use zero knowledge proofs to check that members have signed agreements before participation. Use proposals to vote on new agreements and sign them on-chain",
-    icon: ScaleIcon,
+      "We utilize IPFS and content addressing to associate e-signatures with agreements.",
+    icon: <img src="/ipfs.png" className="h-full w-full" aria-hidden="true" />,
   },
   {
     name: "Filecoin",
     description:
-      "Build next generation blockchain workflows utilizing e-signatures.",
-    icon: BoltIcon,
+      "We utilize Filecoin for decentralized and verifiable agreement retention.",
+    icon: (
+      <img src="/filecoin.png" className="h-full w-full" aria-hidden="true" />
+    ),
   },
   {
     name: "IPLD",
     description:
-      "All agreements are encrypted locally before being stored on the peer-to-peer IPFS.",
-    icon: LockClosedIcon,
+      "We utilize IPLD for data model standardization that allows us to build a zero knowledge proof protocol for agreements.",
+    icon: <img src="/ipld.png" className="h-full w-full" aria-hidden="true" />,
   },
 ];
 
@@ -50,14 +45,14 @@ export default function HowItWorks() {
             {features.map((feature) => (
               <div key={feature.name} className="relative">
                 <dt>
-                  <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-purple-500 text-white">
-                    <feature.icon className="h-6 w-6" aria-hidden="true" />
+                  <div className="absolute flex h-20 w-20 items-center justify-center rounded-md">
+                    {feature.icon}
                   </div>
-                  <p className="ml-16 text-lg font-medium leading-6 text-slate-400">
+                  <p className="ml-24 text-lg font-medium leading-6 text-slate-400">
                     {feature.name}
                   </p>
                 </dt>
-                <dd className="mt-2 ml-16 text-base text-slate-50">
+                <dd className="mt-2 ml-24 text-base text-slate-50">
                   {feature.description}
                 </dd>
               </div>
