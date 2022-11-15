@@ -41,7 +41,7 @@ function App() {
             </span>
           </h1>
           <p className="mt-3 text-base text-xl text-purple-100 sm:mx-auto sm:mt-5 md:mt-5 lg:mx-0">
-            Send and sign agreements utilizing decentralized e-signature
+            Send and sign agreements utilizing decentralized digital signature
             protocols.
           </p>
           <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">

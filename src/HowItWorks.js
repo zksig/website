@@ -2,13 +2,13 @@ const features = [
   {
     name: "Filecoin Virtual Machine",
     description:
-      "We utilize the Filecoin Virtual Machine to attribute e-signatures to users and associate e-signatures with agreements.",
+      "We utilize the Filecoin Virtual Machine to attribute digital signatures to users and associate digital signatures with agreements.",
     icon: <img src="/fvm.png" className="h-full w-full" aria-hidden="true" />,
   },
   {
     name: "IPFS",
     description:
-      "We utilize IPFS and content addressing to associate e-signatures with agreements.",
+      "We utilize IPFS and content addressing to associate digital signatures with agreements.",
     icon: <img src="/ipfs.png" className="h-full w-full" aria-hidden="true" />,
   },
   {
@@ -36,7 +36,7 @@ export default function HowItWorks() {
             How it works
           </p>
           <p className="mt-4 max-w-2xl text-xl text-slate-400 lg:mx-auto">
-            Future Proof E-Signature Protocols
+            Future Proof Digital Signature Protocols
           </p>
         </div>
 

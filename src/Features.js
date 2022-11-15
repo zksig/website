@@ -21,7 +21,7 @@ const features = [
   {
     name: "Build the Future",
     description:
-      "Build next generation blockchain workflows utilizing e-signatures.",
+      "Build next generation blockchain workflows utilizing digital signatures.",
     icon: BoltIcon,
   },
   {
@@ -38,13 +38,13 @@ export default function Features() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-lg font-semibold text-purple-500">
-            Legally Binding Decentralized E-Signatures
+            Legally Binding Decentralized Digital Signatures
           </h2>
           <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-slate-900 sm:text-4xl">
             Use Cases
           </p>
           <p className="mt-4 max-w-2xl text-xl text-slate-500 lg:mx-auto">
-            Build e-signatures into web3 workflows
+            Build digital signatures into web3 workflows
           </p>
         </div>
 
